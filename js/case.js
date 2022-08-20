@@ -14,7 +14,7 @@ function updateCaseNumber(isIncrease) {
 }
 
 function updateCaseTotalPrice(newCaseNumber){
-    const caseTotalPrice = newCaseNumber*1219;
+    const caseTotalPrice = newCaseNumber*59;
     const caseTotalElement = document.getElementById('case-total');
     caseTotalElement.innerText=caseTotalPrice;
 }
